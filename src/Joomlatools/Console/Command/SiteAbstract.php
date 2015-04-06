@@ -35,14 +35,14 @@ abstract class SiteAbstract extends Command
             null,
             InputOption::VALUE_REQUIRED,
             "Web server root",
-            '/var/www'
+            '/var/www/html'
         )
         ->addOption(
             'mysql',
             null,
             InputOption::VALUE_REQUIRED,
             "MySQL credentials in the form of user:password",
-            'root:root'
+            'root:gunjan'
         )
         ->addOption(
             'mysql_db_prefix',
